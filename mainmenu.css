@@ -1,0 +1,47 @@
+.Playbtnstyle{
+    background-color: sienna;
+    width: 177px;
+    height: 77px;
+    border-radius: 13%;
+    border-style: groove;
+    border-color: gold;
+    border-width: 7px;
+    color: whitesmoke;
+    font-size: 37px;
+    font-family: 'antic_slabregular';
+    src: url('anticslab-regular.woff2') format('woff2'),
+         url('anticslab-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    top: 360px;
+    left: 870px;
+}
+.Playbtnstyle:hover{
+    background-color: gold;
+    border-color: rosybrown;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.background{
+    background-image: none;
+}
+.background.background1{
+    background-image: url("Assets/Textures/worldmap1.png");
+}
+.background.background2{
+    background-image: url("Assets/Textures/worldmap2.gif");
+}
+.background.background3{
+    background-image: url("Assets/Textures/worldmap3.jpg");
+}
+.background.background4{
+    background-image: url("Assets/Textures/worldmap4.jpg");
+}
+.TitleBig{
+    font-size: 137px;
+    position: absolute;
+    left: 670px;
+    color: rgb(199, 150, 28);
+    text-shadow: 3px 3px gold;
+}

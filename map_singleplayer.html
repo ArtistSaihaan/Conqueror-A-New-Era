@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/mapcontrols.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="countriesinfo.css">
+    <title>Conqueror Singleplayer: Map</title>
+</head>
+<body>
+    <div Zoomer style="position: fixed; top: 730px; left: 1770px;">
+        <button ZoomIn style="width: 70px; height: 40px; font-size: 31px;" id="ZoomInbtn">+</button><br>
+        <button ZoomScale style="width: 70px; height: 40px; font-size: 31px;" id="ZoomDetail">1</button><br>
+        <button ZoomOut style="width: 70px; height: 40px; font-size: 31px;" id="ZoomOutbtn">-</button>
+    </div>
+    <a title="Transparent 6lue, Public domain, via Wikimedia Commons" id="bodyid"><img width="2400" alt="Flag-map of the world" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag-map_of_the_world.svg/2400px-Flag-map_of_the_world.svg.png"><button India style="width: 195px; height: 248px; position: absolute; top: 430px; left: 1630px; background-image: url('Assets/Buttons/IndianSubcontinent.png');"></button></a>
+    <div id="InfoPanel" style="display: none;">
+        <div Paper style="background-image: url('Assets/Textures/oldpaper.jpg'); width: 1280px; height: 960px; position: fixed; bottom: 0px; right: 1100px; transform: scale(0.3, 1.1)"></div>
+        <div CountryName id="countryname" class="countryname">CountryName</div>
+    </div>
+</body>
+</html>
