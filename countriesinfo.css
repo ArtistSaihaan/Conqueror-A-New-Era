@@ -3,3 +3,11 @@
     position: fixed;
     bottom: 790px;
 }
+.indsub{
+  background-image: url('Assets/Buttons/IndianSubcontinent.png');
+  width: 195px;
+  height: 248px;
+  position: absolute;
+  bottom: 300px;
+  left: 77px;
+}
